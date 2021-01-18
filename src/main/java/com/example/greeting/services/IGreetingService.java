@@ -14,4 +14,6 @@ public interface IGreetingService {
     Greeting editGreetingByName(long id, User user);
 
     List<Greeting> viewGreetings();
+
+    Greeting editGreeting(long id, User user);
 }
